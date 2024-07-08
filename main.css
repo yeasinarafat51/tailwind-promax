@@ -1,0 +1,12 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities{
+    .text1{
+        @apply text-[#181818] border rounded-full border-[#F44335] md:p-1 md:mx-2 md:text-sm text-xs mx-1 p-1
+    }
+    .text2{
+        @apply text-[#2D3142] border rounded-full border-[#232323] md:px-5 md:py-1 md:mx-2 md:text-sm font-medium text-xs mx-1 p-1
+    }
+}
